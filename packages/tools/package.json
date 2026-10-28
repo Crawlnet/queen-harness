@@ -1,0 +1,20 @@
+{
+  "name": "@crawlnet/tools",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p .",
+    "test": "node --test \"test/*.test.ts\""
+  },
+  "dependencies": {
+    "@crawlnet/shared": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "typescript": "^5"
+  }
+}

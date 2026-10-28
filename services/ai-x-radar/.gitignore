@@ -1,0 +1,5 @@
+node_modules/
+.env
+.env.*
+# the radar's daily runs and its lock
+data/

@@ -1,0 +1,17 @@
+{
+  "name": "queen-harness",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "ask": "node packages/harness/src/cli.ts",
+    "serve": "node packages/harness/src/server.ts"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

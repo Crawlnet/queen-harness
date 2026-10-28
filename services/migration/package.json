@@ -1,0 +1,10 @@
+{
+  "name": "migration",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "watch": "node src/index.mjs watch",
+    "status": "node src/index.mjs status",
+    "daily": "node src/index.mjs daily"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ai-x-radar",
+  "private": true,
+  "type": "module",
+  "description": "A daily radar of AI and agent ideas on X",
+  "scripts": {
+    "run": "node src/index.mjs run",
+    "collect": "node src/index.mjs collect"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
